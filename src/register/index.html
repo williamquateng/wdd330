@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register | Sleep Outside</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <header class="divider">
+      <div class="logo">
+        <a href="../index.html">← Back to Home</a>
+      </div>
+    </header>
+
+    <main class="divider">
+      <section class="register">
+        <h2>Create Account</h2>
+        <form id="register-form" class="form">
+          <label for="fullName">Full name</label>
+          <input type="text" id="fullName" name="fullName" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required minlength="6" />
+
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" required minlength="6" />
+
+          <button type="submit">Register</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      &copy;2025 ⛺ SleepOutside
+    </footer>
+
+    <script src="/js/register.js"></script>
+  </body>
+</html>
